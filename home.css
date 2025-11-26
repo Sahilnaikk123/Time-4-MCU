@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    color: #b71c1c; /* Marvel red */
+}
+
+.film-info {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin-bottom: 30px;
+}
+
+.film-image img {
+    display: block;
+    margin: 15px 0;
+    border-radius: 6px;
+    width: 220px;
+}
+
+.film-director, .flim-detail, .film-summary, .film-rating {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.want-to-watch {
+    background-color: #d32f2f; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.want-to-watch:hover {
+    background-color: #b71c1c;
+}
