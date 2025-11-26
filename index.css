@@ -1,15 +1,24 @@
 
-body{
-    background-image:url("Time4MCUcover.jpg");
-    
+body {
+    background-image: url("Time4MCUcover.jpg");
     background-size: cover;
-   
-}
-.container {
-    text-align: center;
-    margin-top: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;  
 }
 
+
+.container {
+    text-align: center;
+}
 
 
 button {
@@ -20,8 +29,4 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-}
-
-button:hover {
-    background: #45a049;
 }
