@@ -75,47 +75,6 @@ h2 {
     background-color: #b71c1c;
 }
 
-
-
-/* 
-.navbar {
-    width: 100%;
-    background-color: #111;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    overflow-x: auto; 
-    white-space: nowrap;
-}
-
-.navbar ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.navbar li {
-    display: inline-block;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    padding: 8px 12px;
-    
-}
-
-.navbar a:hover {
-    background-color: #ff4747;
-    border-radius: 5px;
-    color: #fff;
-}  */
-
-
 .navbar {
     width: 250px;
     background-color: #111;
@@ -152,12 +111,8 @@ h2 {
     background-color: #ff4747;
     border-radius: 5px;
 }
-header{
-    padding: 30px;
-    color: red;
-    margin:20px;
-    background-color:gray;
-}
+
+
 footer{
     padding:20px;
     text-align: center;
