@@ -6,10 +6,11 @@ body {
 }
 .homepage-about {
     font-family: Arial, sans-serif;
-    width: 100%;
+    width: 75%;
     
-    padding: 15px;
+    padding: 10px;
 }
+
 
 .homepage-about h1 {
     text-align: center;
@@ -56,6 +57,7 @@ h2 {
 .film-director, .flim-detail, .film-summary, .film-rating {
     margin: 10px 0;
     line-height: 1.6;
+    width: 75%;
 }
 
 .want-to-watch {
@@ -75,7 +77,7 @@ h2 {
 
 
 
-
+/* 
 .navbar {
     width: 100%;
     background-color: #111;
@@ -111,6 +113,54 @@ h2 {
     background-color: #ff4747;
     border-radius: 5px;
     color: #fff;
-} 
+}  */
 
 
+.navbar {
+    width: 250px;
+    background-color: #111;
+    padding: 20px;
+    position: fixed;
+    right: 0;        /* Moves menu to the right side */
+    top: 0%;
+    height: 100%;
+    overflow-y: auto;
+    
+}
+
+.navbar ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar li {
+    margin: 15px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+  
+}
+
+.navbar a:hover {
+    background-color: #ff4747;
+    border-radius: 5px;
+}
+header{
+    padding: 30px;
+    color: red;
+    margin:20px;
+    background-color:gray;
+}
+footer{
+    padding:20px;
+    text-align: center;
+    color: gray;
+    background-color: black;
+}
