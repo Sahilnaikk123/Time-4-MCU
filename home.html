@@ -1,80 +1,90 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
     <title>Marvel Films List</title>
     <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
 
+    <!-- HEADER -->
+    
     <header>
-        Note: Only movies up to Endgame are included
+        <marquee><p>Note: Only movies up to Endgame are included</p></marquee>
     </header>
-    <section>
-        <div id="Top" class="homepage-about">
-            <h1>Welcome to Time 4 MCU</h1>
+
+    <!-- INTRO SECTION (FULL WIDTH) -->
+    <section class="intro" id="Top">
+        <h1 class="homepage-about">Welcome to Time 4 MCU</h1>
+
+        <p>
+            Your ultimate guide to watching every Marvel movie and series in the correct
+            <b>chronological order</b>. Time 4 MCU helps you follow the full MCU timeline<br>
+            with ease by providing clear details for every film and show.
+        </p>
+
+        <p>Here, you can:</p>
+
+        <ul>
+            <li>⭐ Read easy and honest <strong>reviews</strong></li>
+            <li>🎬 Watch official <strong>trailers</strong></li>
+            <li>📊 Check <strong>IMDb ratings</strong> and fan scores</li>
+            <li>👥 Explore full <strong>cast information</strong></li>
+            <li>📺 Find out <strong>where to watch</strong> each movie or series</li>
+            <li>🎞️ Understand the entire <strong>MCU timeline order</strong></li>
+        </ul>
+
+        <p>
+            Whether you're a new Marvel fan or rewatching the entire saga,
+            <strong>Time 4 MCU</strong> makes your journey simple and enjoyable — all in one place!
+        </p>
+    </section>
 
 
-            <p>
-                Your ultimate guide to watching every Marvel movie and series in the correct
-                <b>chronological order</b>. Time 4 MCU helps you follow the full MCU timeline<br>
-                with eas by providing clear details for every film and show.
-            </p>
+    <!-- MAIN AREA (SIDEBAR + MOVIES) -->
+    <div class="main-area">
 
-            <p>Here, you can:</p>
-
-            <ul>
-                <li>⭐ Read easy and honest <strong>reviews</strong></li>
-                <li>🎬 Watch official <strong>trailers</strong></li>
-                <li>📊 Check <strong>IMDb ratings</strong> and fan scores</li>
-                <li>👥 Explore full <strong>cast information</strong></li>
-                <li>📺 Find out <strong>where to watch</strong> each movie or series</li>
-                <li>🎞️ Understand the entire <strong>MCU timeline order</strong></li>
-            </ul>
-
-            <p>
-                Whether you're a new Marvel fan or rewatching the entire saga,
-                <strong>Time 4 MCU</strong> makes your journey simple and enjoyable — all in one place!
-            </p>
-        </div>
-
-        <div class="navbar">
+        <!-- LEFT NAVIGATION -->
+        <aside class="">
+            <h3>Quick Menu</h3>
             <ol>
                 <li><a href="#Top">Home</a></li>
                 <li><a href="login.html">Login</a></li>
-                <li><a href="regester.html">regester</a></li>
-                <li><a href="profile.html"> My profile</a></li>
-                 <hr>  
+                <li><a href="regester.html">Register</a></li>
+                <li><a href="profile.html">My Profile</a></li>
+                <hr>
 
-                <li> <a href="#movie1">Captain America: The First Avenger</a></li>
-                <li><a href="#movie2">The Fantastic Four: First Steps</a></li>
+                <li><a href="#movie1">Captain America</a></li>
+                <li><a href="#movie2">Fantastic Four</a></li>
                 <li><a href="#movie3">Captain Marvel</a></li>
                 <li><a href="#movie4">Iron Man</a></li>
                 <li><a href="#movie5">Iron Man 2</a></li>
-                <li><a href="#movie6">The Incredible Hulk</a></li>
+                <li><a href="#movie6">Hulk</a></li>
                 <li><a href="#movie7">Thor</a></li>
-                <li><a href="#movie8">The Avengers</a></li>
-                <li><a href="#movie9">Thor: The Dark World</a></li>
+                <li><a href="#movie8">Avengers</a></li>
+                <li><a href="#movie9">Thor 2</a></li>
                 <li><a href="#movie10">Iron Man 3</a></li>
-                <li><a href="#movie11">Captain America: The Winter Soldier </a></li>
-                <li><a href="#movie12">Guardians of the Galaxy </a></li>
-                <li><a href="#movie13">Guardians of the Galaxy Vol. 2</a></li>
-                <li><a href="#movie14">Avengers: Age of Ultron</a></li>
+                <li><a href="#movie11">Winter Soldier</a></li>
+                <li><a href="#movie12">Guardians</a></li>
+                <li><a href="#movie13">Guardians Vol.2</a></li>
+                <li><a href="#movie14">Age of Ultron</a></li>
                 <li><a href="#movie15">Ant-Man</a></li>
-                <li><a href="#movie16">Captain America: Civil War</a></li>
+                <li><a href="#movie16">Civil War</a></li>
                 <li><a href="#movie17">Black Widow</a></li>
-                <li><a href="#movie18">Spider-Man: Homecoming </a></li>
+                <li><a href="#movie18">Homecoming</a></li>
                 <li><a href="#movie19">Black Panther</a></li>
                 <li><a href="#movie20">Doctor Strange</a></li>
-                <li><a href="#movie21">Thor: Ragnarok </a></li>
-                <li><a href="#movie22">Ant-Man and the Wasp</a></li>
-                <li><a href="#movie23">Avengers: Infinity War </a></li>
-                <li><a href="#movie24">Avengers: Endgame </a></li>
+                <li><a href="#movie21">Thor: Ragnarok</a></li>
+                <li><a href="#movie22">Ant-Man Wasp</a></li>
+                <li><a href="#movie23">Infinity War</a></li>
+                <li><a href="#movie24">Endgame</a></li>
             </ol>
-        </div>
+        </aside>
 
-        <!-- start grom here -->
+
+        <!-- RIGHT: MOVIE CONTENT -->
+        <section class="movies">
 
         <!-- 1st film -->
         <div id="movie1" class="film-info">
@@ -112,11 +122,12 @@
                 <button class="want-to-watch">Want to Watch</button>
             </form>
         </div>
+        <hr>
+            <!-- MOVIE 2 -->
+           
 
-        <!-- <hr> -->
 
-
-        <!-- 2nd film -->
+    
         <div id="movie2" class="film-info">
             <h2 class="film-title">2. The Fantastic Four: First Steps</h2>
 
@@ -161,8 +172,11 @@
             </form>
         </div>
 
-        <!-- <hr> -->
+         <hr> 
 
+
+
+         
 
         <!-- 3rd film -->
         <div id="movie3" class="film-info">
@@ -205,7 +219,10 @@
             </form>
         </div>
 
-        <!-- <hr> -->
+        <hr> 
+
+
+            
 
         <!-- 4st film -->
         <div id="movie4" class="film-info">
@@ -249,7 +266,9 @@
             </form>
         </div>
 
-        <!-- <hr> -->
+        <hr> 
+
+
         <!-- 5st film -->
         <div id="movie5" class="film-info">
             <h2 class="film-title">5. Iron Man 2</h2>
@@ -292,7 +311,7 @@
             </form>
         </div>
 
-        <!-- <hr> -->
+        <hr> 
 
         <!-- 6st film -->
         <div id="movie6" class="film-info">
@@ -337,7 +356,7 @@
             </form>
         </div>
 
-        <!-- <hr> -->
+      <hr>
 
         <!-- 7th film -->
         <div id="movie7" class="film-info">
@@ -380,7 +399,7 @@
             </form>
         </div>
 
-        <!-- <hr> -->
+        <hr> 
 
 
         <!-- 8th film -->
@@ -425,7 +444,7 @@
             </form>
         </div>
 
-        <!-- <hr> -->
+        <hr> 
 
         <!-- 9th film -->
         <div id="movie9" class="film-info">
@@ -472,7 +491,10 @@
             </form>
         </div>
 
-        <!-- <hr> -->
+        <hr> 
+
+
+        
 
 
         <!-- 10th film -->
@@ -521,7 +543,7 @@
             </form>
         </div>
 
-        <!-- <hr> -->
+        <hr> 
         <!-- 11 th film -->
         <div id="movie11" class="film-info">
             <h2 class="film-title">11. Captain America: The Winter Soldier</h2>
@@ -560,6 +582,11 @@
             <form action="11.html">
                 <button class="want-to-watch">Want to Watch</button>
             </form>
+        </div>
+        
+        
+
+
 
 
             <!-- 12 th movie -->
@@ -570,8 +597,7 @@
 
 
                 <div class="film-image">
-                    <img src="12.jpeg" alt="Guardians of the Galaxy
-" height="300">
+                    <img src="12.jpeg" alt="Guardians of the Galaxy" height="300">
                 </div>
 
 
@@ -611,10 +637,10 @@
                 </form>
             </div>
 
-            <!-- <hr> -->
-        </div>
+          <hr>
+        
 
-        <!-- <hr> -->
+       
 
 
 
@@ -660,10 +686,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
+      <hr>
+       
 
         <!-- 14 th movie -->
         <div id="movie14" class="film-info">
@@ -706,10 +730,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
+      <hr>
+        
 
 
 
@@ -757,12 +779,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
-
-
+      <hr>
+       
 
 
         <!-- 16th movie -->
@@ -810,10 +828,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
+      <hr>
+       
 
 
         <!-- 17th movie -->
@@ -859,11 +875,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
-
+      <hr>
+        
 
 
 
@@ -911,10 +924,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
+      <hr>
+        
 
         <!-- 19th movie -->
         <div id="movie19" class="film-info">
@@ -960,10 +971,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
+      <hr>
+        
 
 
         <!-- 20th movie -->
@@ -1009,10 +1018,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
+      <hr>
+       
 
 
 
@@ -1061,10 +1068,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
+      <hr>
+       
 
 
 
@@ -1116,10 +1121,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
+      <hr>
+       
 
 
         <!-- 23th movie -->
@@ -1166,10 +1169,8 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
-
-        <!-- <hr> -->
+      <hr>
+        
 
         <!-- 24th movie -->
         <div id="movie24" class="film-info">
@@ -1214,59 +1215,17 @@
             </form>
         </div>
 
-        <!-- <hr> -->
-        </div>
+       <hr>
 
-        <!-- <hr> -->
+        </section> <!-- END OF MOVIES -->
 
-
-
+    </div> <!-- END MAIN-AREA -->
 
 
+    <!-- FOOTER -->
+    <footer>
+        Time 4 MCU © 2025 – All Rights Reserved
+    </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </header>
-        <footer>
-            <p> &copy; 2025 Time 4 MCU . All rights reserved</p>
-        </footer>
 </body>
-
 </html>
